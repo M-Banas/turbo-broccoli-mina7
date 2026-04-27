@@ -24,6 +24,6 @@ def test_invalid_height():
 
     try:
         process_row(row)
-        assert False  # jeśli nie rzuci błędu → fail
+        assert False 
     except ValueError:
         assert True
