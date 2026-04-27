@@ -18,3 +18,7 @@ def main():
         for row in reader:
             index, height, weight, bmi = process_row(row)
             print(f"Index: {index}, Height: {height} inches, Weight: {weight} pounds, BMI: {bmi:.2f}")
+
+
+if __name__ == "__main__":
+    main()
